@@ -102,7 +102,7 @@ bot.on('callback_query', (query) => {
 
 app.post('/send-message', (req, res) => {
   const { message, userId } = req.body;
-  const chatId = '-4747446763'; // Replace with your chat ID
+  const chatId = '-1002327154709'; // Replace with your chat ID
 
   if (!clients.has(userId)) {
     return res.status(404).send({ error: 'User not connected.' });
